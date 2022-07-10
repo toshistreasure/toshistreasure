@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1422231745, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: Elon-CrouchHit
+  m_EditorClassIdentifier: 
+  clip: {fileID: 7400000, guid: bb6366c91b6f6a546bc187a0e8b6c8cf, type: 2}
+  speed:
+    _serializedValue: 4294967296
+  preview: {fileID: 4219523625243114849, guid: 4d889174c95b6df4aa42c2fab67e6767, type: 3}
+  totalFrames: 1
+  customHitBoxes:
+  - name: Body
+    activeFrames:
+    - active: 1
+      position:
+        x:
+          _serializedValue: -7215544832
+        y:
+          _serializedValue: 901943104
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 14903536640
+      cubeHeight:
+        _serializedValue: 14516989952
+      radius:
+        _serializedValue: 2147483648
+      range: 1
+    shape: 1
+    collisionType: 0
+    hitBoxType: 0
